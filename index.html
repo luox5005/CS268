@@ -1,4 +1,58 @@
 <html>
+    <head>
+        <title>hololive</title>
+        <style>
+            html,body{
+                margin:0;
+                height: 100%;
+                background-color: black;
+            }
+            video{
+                position: absolute;
+                top: 0;
+                min-width: 100%;
+                min-height: 100%;
+                width: 100%;
+                height: auto;
+                z-index: -9999;
+                -webkit-filter:grayscale(50%)
+            }
+
+        
+
+            h1{
+                background-color:transparent;
+                color:aqua;
+                border-color:white;
+                margin-bottom:0;
+                z-index: 9999;
+            }
+            .menu{
+                display:flex;
+                justify-content: flex-end;
+                flex-direction: row;
+                align-items: flex-start;
+                list-style: none;
+                color:white;
+                margin:0;
+                background-color:transparent;
+            }
+            li{
+                padding:10px;
+                border-left: 1px solid white;
+            }
+        </style>
+    </head>
     <body>
-    </body>>
-</html>>
+        <video src="/home/luoxiang/CS268/video/SSS.mp4" loop="loop" muted autoplay="autoplay"></video>
+        <header>
+            <h1>hololive</h1>
+            <ul, class="menu">
+                <li>Subordinate personnel</li>
+                <li>Official merchandise</li>
+                <li>Second creation criteria</li>
+                <li>Company profile</li>
+            </ul>
+        </header>
+    </body>
+</html>
