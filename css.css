@@ -1,0 +1,145 @@
+
+            html,body{
+                margin:0;
+                width: auto;
+            }
+            .div1{
+                width:100%;
+                height: 500px;
+                position: relative;
+            }
+            video{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: auto;
+                z-index: -9999;
+                -webkit-filter:grayscale(60%)
+            }
+            .header{
+                position: fixed;
+                background-color: white;
+                margin: auto;
+                width:100%;
+                height: 75px;
+                z-index: 9999;
+            }
+            .header>h1{
+                color:aqua;
+                border-color:white;
+                float: left;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0px;
+                width: 30%;
+                height: 75px;
+                text-align: center;
+            }
+            .menu{
+                display:flex;
+                justify-content: flex-end;
+                flex-direction: row;
+                align-items: flex-end;
+                list-style: none;
+                color:black;
+                width: 70%;
+                height: 65px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+            }
+            
+            .menu>li{
+                padding:10px;
+                border-left: 1px solid white;
+            }
+            
+            .title{
+                width: 800px;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                margin: auto;
+                z-index: -10;
+            }
+
+            #subtitle{
+                color: white;
+                font-size: 25px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+
+            #title{
+                color: white;
+                font-size: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            #pictures{
+                
+                width: 100%;
+                height: 500px;
+                background-color: rgb(62, 228, 228);
+                z-index: 10;
+                position: relative;
+            }
+            li{list-style:none;}
+            #image{
+                width:900px;
+                height: 300px;
+                position: absolute; 
+                top:0;
+                left:40px;
+                right: 0;
+                bottom: 0;
+                margin:auto;
+            }
+            #image li{position: absolute;top:0;left:0;display: none;}
+            #image li.image_show{display: block;}
+            #list {position: absolute;bottom: 20px;left: 50%;margin-left: -120px;}
+            #list li{ 
+                width: 12px;
+                vertical-align: middle;
+                height: 12px;
+                float: left;
+                border-radius: 6px;
+                margin-right: 24px;
+                background-color:rgb(53, 184, 184);
+            }
+            #list li.list_show{background:rgb(255, 255, 255);}
+            .arrow li{
+                width: 80px; 
+                height:500px; 
+                background-color: rgb(62, 228, 228);
+                line-height: 500px;
+                vertical-align:middle;
+                color: rgb(255, 255, 255);
+                font-size: 50px;
+                font-weight: bold;
+                text-align: center;
+            }
+            .arrow li:hover{background-color: rgb(53, 184, 184);color:white; cursor: pointer;}
+            .arrow_l{margin-left: 0;}
+            .arrow_r{margin-right: 0;}
+            .arrow{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: auto;
+                height: 500px; 
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                right: 0; 
+                bottom: 0; 
+                margin: auto; 
+                padding: 0;
+            }

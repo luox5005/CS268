@@ -1,59 +1,52 @@
 <html>
     <head>
         <title>hololive</title>
-        <style>
-            html,body{
-                margin:0;
-                height: 100%;
-            }
-            video{
-                position: absolute;
-                top: 0;
-                min-width: 100%;
-                min-height: 100%;
-                width: 100%;
-                height: auto;
-                z-index: -9999;
-                -webkit-filter:grayscale(50%)
-            }
-
-            header{
-                position: fixed;
-            }
-            h1{
-                background-color:transparent;
-                color:aqua;
-                border-color:white;
-                margin-bottom:0;
-            }
-            .menu{
-                display:flex;
-                justify-content: flex-end;
-                flex-direction: row;
-                align-items: flex-start;
-                list-style: none;
-                color:white;
-                margin:0;
-                background-color:transparent;
-            }
-            li{
-                padding:10px;
-                border-left: 1px solid white;
-            }
-        </style>
+        <link rel = "stylesheet" type="text/css" href="css.css"/>
     </head>
     <body>
-        <video src="video\SSS.mp4" loop="loop" muted autoplay="autoplay"></video>
+        <div class="div1">
+            <video src="video\SSS.mp4" loop="loop" muted autoplay="autoplay"></video>
         <header>
-            <img src="image\hololivelogo.png"  alt="logo" />
-            <ul, class="menu">
-                <li>Subordinate personnel</li>
-                <li>Official merchandise</li>
-                <li>Second creation criteria</li>
-                <li>Company profile</li>
+            <ul, class="header">
+                <h1>Welcome to Hololive</h1>
+                <ul, class="menu">
+                    <li>Subordinate personnel</li>
+                    <li>Official merchandise</li>
+                    <li>Second creation criteria</li>
+                    <li>Company profile</li>
+                </ul>
             </ul>
-            
-            
         </header>
+        <div class="title">
+            <h1 id="subtitle">Vtuber Office That Makes Fans All Over the World from Japan</p>
+            <h1 id="title">「Hololive Production」</p>
+        </div>
+        
+        </div>
+
+        <div id = "pictures">
+             <ul id="image">
+                <li class="image_show"><img src="image/img1.jpg"  width="900px" height="300px"/></li>
+                <li><img src="image/img2.jpg"  width="900px" height="300px"/></li>
+                <li><img src="image/img3.jpg"  width="900px" height="300px"/></li>      
+                <li><img src="image/img4.jpg"  width="900px" height="300px"/></li>
+                <li><img src="image/img5.jpg"  width="900px" height="300px"/></li>
+            </ul>
+
+             <ul id="list">
+                    <li class="list_show"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            <ul class="arrow" id = "arrow">
+                <li class="arrow_l" id = "arrow_l">&lt;</li>
+                <li  class="arrow_r" id = "arrow_r">&gt;</li>
+            </ul>
+        </div>
+        
+
+        <script type="text/javascript" src = "script.js"></script>
     </body>
 </html>
