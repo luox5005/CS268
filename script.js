@@ -1,11 +1,6 @@
  /*当鼠标进入盒子，盒子两边的圆形显示效果*/
             function $(id){return document.getElementById(id);}
-            $("pictures").οnmοuseοver=function () {
-                $("arrow").style.display="block";
-            }
-            $("pictures").οnmοuseοut=function () {
-                $("arrow").style.display="none";
-            }
+            
             var image = $("image").getElementsByTagName("li");
             var list = $("list").getElementsByTagName("li");
             var arrow_r = $("arrow_r");

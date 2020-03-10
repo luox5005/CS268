@@ -18,14 +18,14 @@
             }
             .header{
                 position: fixed;
-                background-color: white;
+                background-color: rgb(27, 24, 185);
                 margin: auto;
                 width:100%;
                 height: 75px;
                 z-index: 9999;
             }
             .header>h1{
-                color:aqua;
+                color:white;
                 border-color:white;
                 float: left;
                 margin-left: auto;
@@ -41,7 +41,7 @@
                 flex-direction: row;
                 align-items: flex-end;
                 list-style: none;
-                color:black;
+                color:white;
                 width: 70%;
                 height: 65px;
                 margin-left: auto;
@@ -76,7 +76,7 @@
 
             #title{
                 color: white;
-                font-size: 50px;
+                font-size: 40px;
                 margin-left: auto;
                 margin-right: auto;
                 text-align: center;
@@ -87,20 +87,17 @@
                 
                 width: 100%;
                 height: 500px;
-                background-color: rgb(62, 228, 228);
+                background-color: white;
                 z-index: 10;
                 position: relative;
             }
             li{list-style:none;}
             #image{
-                width:900px;
-                height: 300px;
-                position: absolute; 
-                top:0;
-                left:40px;
-                right: 0;
-                bottom: 0;
-                margin:auto;
+                top:10px;
+                width:100%;
+                height: 500px;
+                position: relative; 
+                padding:0;
             }
             #image li{position: absolute;top:0;left:0;display: none;}
             #image li.image_show{display: block;}
@@ -112,21 +109,21 @@
                 float: left;
                 border-radius: 6px;
                 margin-right: 24px;
-                background-color:rgb(53, 184, 184);
+                background-color:gray;
             }
-            #list li.list_show{background:rgb(255, 255, 255);}
+            #list li.list_show{background:red;}
             .arrow li{
                 width: 80px; 
                 height:500px; 
-                background-color: rgb(62, 228, 228);
+                background-color: transparent;
                 line-height: 500px;
                 vertical-align:middle;
-                color: rgb(255, 255, 255);
+                color: gray;
                 font-size: 50px;
                 font-weight: bold;
                 text-align: center;
             }
-            .arrow li:hover{background-color: rgb(53, 184, 184);color:white; cursor: pointer;}
+            .arrow li:hover{background-color:rgb(133, 127, 127);color:white; cursor: pointer;}
             .arrow_l{margin-left: 0;}
             .arrow_r{margin-right: 0;}
             .arrow{
