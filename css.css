@@ -90,7 +90,6 @@
                 width: auto;
                 padding-left: 10px;
                 padding-right: 10px;
-                z-index: 9000;
             }
             footer>p{
                 color:white;
@@ -187,8 +186,6 @@
                 height: 500px;
                 position: relative; 
                 padding:0;
-                margin-bottom: 0;
-                z-index: inherit;
             }
             .fade{
                 -webkit-animation-name: fade;
