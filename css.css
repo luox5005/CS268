@@ -9,6 +9,47 @@
                 height: 500px;
                 position: relative;
             }
+
+            .div2{
+                width:100%;
+                height:auto;
+                position: relative;
+            }
+            .biimg1{
+                background-color: rgb(170, 170, 170);
+                text-align: center;
+                padding-top:75px;
+                width:100%;
+                height: auto;
+                position: relative;
+            }
+            .bitext1{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+            .hetext1{
+                margin:auto;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top:25px;
+                padding-bottom: 25px;
+                background-color: gray;
+                color: white;
+            }
+            .column {
+                width: 33%;
+            }
+              
+              /* Clearfix (clear floats) */
+              .biimg2{
+                display:flex;
+                justify-content:space-between;
+                margin-left: 1px;
+                margin-right: 1px;
+              }
             video{
                 position: absolute;
                 top: 0;
@@ -28,6 +69,7 @@
                 z-index: 9999;
             }
             .header>h1{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 color:white;
                 border-color:white;
                 float: left;
@@ -74,7 +116,11 @@
 
             a:link {color: white}
 
+            footer a:hover {color: rgb(110, 110, 255)} 
+
             .menu button{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 15px;
                 height: 75px;
                 width: 150px;
                 text-align: center;
