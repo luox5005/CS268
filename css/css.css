@@ -63,6 +63,7 @@
             }
 
             a:link {color: white}
+            a:visited{color:white}
 
             footer a:hover {color: rgb(110, 110, 255)} 
 
