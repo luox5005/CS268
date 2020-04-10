@@ -21,6 +21,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: bold;
 }
 
 #title{
@@ -30,33 +31,39 @@
     margin-right: auto;
     text-align: center;
     margin-top: 10px;
+    font-weight: bold;
 }
 video{
     position: absolute;
     top: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     min-height: 100%;
     min-width: 100%;
     z-index: -9999;
     -webkit-filter:grayscale(60%)
 }
 #pictures{
-    top:0;
+    margin-top: 10px;
+    margin-bottom: 20px;
     width: 100%;
     height: 500px;
     background-color: white;
     z-index: 10;
     position: relative;
-    margin-bottom: 10px;
+    
+}
+.image1{
+    width:100%;
+    height:100%;
 }
 li{list-style:none;}
 #image{
-    top:10px;
     width:100%;
     height: 500px;
     position: relative; 
     padding:0;
+    margin:0;
 }
 .fade{
     -webkit-animation-name: fade;
@@ -64,10 +71,6 @@ li{list-style:none;}
     animation-name: fade;
     animation-duration: 1.5s;
 }
-@-webkit-keyframes fade {
-    from {opacity: 0.4} 
-    to {opacity: 1}
-  }
   
   @keyframes fade {
     from {opacity: 0.4} 

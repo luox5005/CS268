@@ -41,6 +41,9 @@
     height: auto;
     position: relative;
 }
+.image1{
+    width:50%;
+}
 .bitext1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top:6px;

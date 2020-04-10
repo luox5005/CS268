@@ -1,6 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Academics Majors</title>
+        <meta charset="UTF-8">
         <link rel = "stylesheet" type="text/css" href="css/css.css"/>
         <link rel = "stylesheet" type="text/css" href="css/academicsmajors.css"/>
         <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg" />
@@ -9,11 +11,11 @@
         <header>
                 <h1>Welcome to SVHC</h1>
                 <div class="menu">
-                    <a href="index.html"><button>Home</button></a>
-                    <a href="briefintroduction.html"><button>Brief Introduction</button></a>
-                    <a href="historicalevolution.html"><button>Historical Evolution</button></a>
-                    <a href="academicsmajors.html"><button id="currentpage">Academics Majors</button></a>
-                    <a href="campuslife.html"><button>Campus Life</button></a>
+                  <a href="index.html">Home</a>
+                  <a href="briefintroduction.html">Brief Introduction</a>
+                  <a href="historicalevolution.html">Historical Evolution</a>
+                  <a href="academicsmajors.html" id="currentpage">Academics Majors</a>
+                  <a href="campuslife.html">Campus Life</a>
                 </div>
         </header>
 
@@ -28,41 +30,46 @@
             <button  class="dropdown-btn" >Pharmacy <i class="triangle"></i></button>
             <div class="dropdown-container">
               <button class="tablinks" onclick="openPage(event, 'Pharmacy')">Pharmacy</button>
-              <button class="tablinks" onclick="openPage(event, 'Chinese Pharmacy')">Chinese Pharmacy</button>
+              <button class="tablinks" onclick="openPage(event, 'ChinesePharmacy')">Chinese Pharmacy</button>
             </div>
             <button  class="dropdown-btn" >Medical Technology <i class="triangle"></i></button>
             <div class="dropdown-container">
-              <button class="tablinks" onclick="openPage(event, 'Rehabilitation Technology')">Rehabilitation Technology</button>
-              <button class="tablinks" onclick="openPage(event, 'Medical Laboratory Technology')">Medical Laboratory Technology</button>
-              <button class="tablinks" onclick="openPage(event, 'Health inspection and Quarantine Technology')">Health inspection and Quarantine Technology</button>
-              <button class="tablinks" onclick="openPage(event, 'Medical Nutrition')">Medical Nutrition</button>
-              <button class="tablinks" onclick="openPage(event, 'Medical Imaging Technology')">Medical Imaging Technology</button>
+              <button class="tablinks" onclick="openPage(event, 'RehabilitationTechnology')">Rehabilitation Technology</button>
+              <button class="tablinks" onclick="openPage(event, 'MedicalLaboratoryTechnology')">Medical Laboratory Technology</button>
+              <button class="tablinks" onclick="openPage(event, 'HealthinspectionandQuarantineTechnology')">Health inspection and Quarantine Technology</button>
+              <button class="tablinks" onclick="openPage(event, 'MedicalNutrition')">Medical Nutrition</button>
+              <button class="tablinks" onclick="openPage(event, 'MedicalImagingTechnology')">Medical Imaging Technology</button>
             </div>
             <button  class="dropdown-btn" >Stomatology <i class="triangle"></i></button>
             <div class="dropdown-container">
               <button class="tablinks" onclick="openPage(event, 'Stomatology')">Stomatology</button>
-              <button class="tablinks" onclick="openPage(event, 'Stomatological Technology')">Stomatological Technology</button>
+              <button class="tablinks" onclick="openPage(event, 'StomatologicalTechnology')">Stomatological Technology</button>
             </div>
-            <button class="tablinks" onclick="openPage(event, 'Optometry Technology')">Optometry Technology</button>
-            <button class="tablinks" onclick="openPage(event, 'Hotel Management')">Hotel Management</button>
+            <button class="tablinks" onclick="openPage(event, 'OptometryTechnology')">Optometry Technology</button>
+            <button class="tablinks" onclick="openPage(event, 'HotelManagement')">Hotel Management</button>
         </div>
 
         <div id="Empty" class="tabcontent">
           <table class="table1">
             <tr>
-              <th class="th1">Main courses</th>
+              <th class="th1">Overview</th>
             </tr>
             <tr>
               <td class="td1">
-                
-              </td>
-            </tr>
-            <tr>
-              <th class="th1">Employment Direction</th>
-            </tr>
-            <tr>
-              <td class="td1">
-                
+                Our college consists of the Department of Social Sciences, the Department of physical education, 
+                the Department of basic education, the school of nursing, the school of clinical medicine, the 
+                school of medicine, the school of medical technology, the Department of Stomatology, the Department 
+                of optometry and the Department of hotel management. There are 17 majors including clinical medicine, 
+                Stomatology, nursing, midwifery, pharmacy, Chinese pharmacy, medical inspection technology, medical 
+                biotechnology, medical imaging technology, stomatology technology, health inspection and quarantine 
+                technology, optometry technology, rehabilitation treatment technology, health information management, 
+                medical nutrition, accounting, hotel management, etc. We have cooperated with more than 70 stable third 
+                class a internship hospitals and more than 200 internship training bases, providing good conditions for 
+                students' clinical internship and practice. We maintain good cooperative relations with the United States, 
+                Britain, Japan and other countries, as well as Taiwan and Hong Kong. The college attaches great importance 
+                to the cultivation of students' professional quality and strengthens practical teaching. Graduates with good 
+                attitude, fast adaptation and strong ability are widely welcomed in the society. The employment rate has 
+                always been kept above 98%, and the quality of employment is good.
               </td>
             </tr>
             </table>
@@ -145,7 +152,7 @@
             </table>
         </div>
 
-        <div id="Chinese Pharmacy" class="tabcontent">
+        <div id="ChinesePharmacy" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -173,7 +180,7 @@
             </table>
         </div>
 
-        <div id="Rehabilitation Technology" class="tabcontent">
+        <div id="RehabilitationTechnology" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -198,7 +205,7 @@
             </table>
         </div>
 
-        <div id="Medical Laboratory Technology" class="tabcontent">
+        <div id="MedicalLaboratoryTechnology" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -227,7 +234,7 @@
             </table>
         </div>
 
-        <div id="Health inspection and Quarantine Technology" class="tabcontent">
+        <div id="HealthinspectionandQuarantineTechnology" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -255,7 +262,7 @@
             </table>
         </div>
 
-        <div id="Medical Nutrition" class="tabcontent">
+        <div id="MedicalNutrition" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -279,7 +286,7 @@
             </table>
         </div>
 
-        <div id="Medical Imaging Technology" class="tabcontent">
+        <div id="MedicalImagingTechnology" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -340,7 +347,7 @@
             </table>
         </div>
 
-        <div id="Stomatological Technology" class="tabcontent">
+        <div id="StomatologicalTechnology" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -367,7 +374,7 @@
             </table>
         </div>
 
-        <div id="Optometry Technology" class="tabcontent">
+        <div id="OptometryTechnology" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -394,7 +401,7 @@
             </table>
         </div>
 
-        <div id="Hotel Management" class="tabcontent">
+        <div id="HotelManagement" class="tabcontent">
           <table class="table1">
             <tr>
               <th class="th1">Main courses</th>
@@ -425,6 +432,6 @@
             <p>Contact information: <a href="mailto:luox5005@uwec.edu">luox5005@uwec.edu</a>.</p>
         </footer>
 
-        <script type="text/javascript" src = "javascript/scriptam.js"></script>
+        <script src = "javascript/scriptam.js"></script>
     </body>
 </html>
