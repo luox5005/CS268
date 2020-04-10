@@ -1,0 +1,123 @@
+.div1{
+    width:100%;
+    height: 500px;
+    position: relative;
+}
+.h2{
+    display:none;
+}
+.title{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -10;
+}
+
+#subtitle{
+    color: white;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title{
+    color: white;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -9999;
+    -webkit-filter:grayscale(60%)
+}
+#pictures{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    
+}
+.image1{
+    width:100%;
+    height:500px;
+}
+li{list-style:none;}
+#image{
+    width:100%;
+    height: 500px;
+    position: relative; 
+    padding:0;
+    margin:0;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
+#image li{position: absolute;top:0;left:0;display: none;}
+#image li.image_show{display: block;}
+#list {position: absolute;bottom: 20px;left: 50%;margin-left: -120px;}
+#list li{ 
+    width: 12px;
+    vertical-align: middle;
+    height: 12px;
+    float: left;
+    border-radius: 6px;
+    margin-right: 24px;
+    background-color:gray;
+}
+#list li.list_show{background:red;}
+.arrow li{
+    width: 80px; 
+    height:500px; 
+    background-color: transparent;
+    line-height: 500px;
+    vertical-align:middle;
+    color: gray;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.6s ease;
+}
+.arrow li:hover{background-color:rgb(133, 127, 127);color:white; cursor: pointer;}
+.arrow_l{margin-left: 0;}
+.arrow_r{margin-right: 0;}
+.arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 500px; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    padding: 0;
+}
