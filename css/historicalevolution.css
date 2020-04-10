@@ -4,7 +4,7 @@
     position: relative;
 }
 .hetext1{
-    margin:auto;
+    margin:0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 50px;
     padding-right: 50px;
@@ -12,6 +12,7 @@
     padding-bottom: 25px;
     background-color: rgb(170, 170, 170);
     color: white;
+    width: auto;
 }
 .hetext1>h1{
     margin-top:0;
