@@ -1,8 +1,45 @@
+.div4{
+    height:auto;
+    width: 100%;
+    margin:0;
+    padding-top:75px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.tab1 {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 20%;
+    min-width: 145px;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.tab1 button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .tab1 button:hover {
+    background-color: #ddd;
+  }
+  .tab1 button.active {
+    background-color: #ccc;
+  }
 .tabcontent1 {
     display: flex;
     flex-direction: column;
     width: 80%;
-    min-width: 450px;
     border-left: none;
     height: auto;
     min-height: 100%;
@@ -105,21 +142,41 @@ td{
         margin-bottom: 60px;
     }
 }
+@media (max-width: 980px){
+    .div4{
+        flex-direction: column;
+    }
+    .tab1{
+        width: 100%;
+        height: 75px;
+        flex-direction: row;
+    }
+    .tabcontent1 {
+        width: 100%;
+        padding:20px;
+    }
+}
 
 @media (max-width: 815px) {
     .dining1{
         flex-direction: column;
-        height: 800px;
+        height: 600px;
     }
     .dining2{
         flex-direction: column;
-        height: 800px;
+        height: 600px;
     }
     .img5{
-        height: 35%;
+        height: 30%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .td2{
+        width: 60px;
+    }
+    .tabcontent1 {
+        padding:0;
     }
 }

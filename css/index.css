@@ -2,6 +2,7 @@
     width:100%;
     height: 500px;
     position: relative;
+    padding-top: 75px;
 }
 .h2{
     display:none;
@@ -50,7 +51,7 @@ video{
     margin-top: 10px;
     margin-bottom: 20px;
     width: 100%;
-    height: auto;
+    height: 500px;
     background-color: white;
     z-index: 10;
     position: relative;
@@ -120,4 +121,91 @@ li{list-style:none;}
     bottom: 0; 
     margin: auto; 
     padding: 0;
+}
+
+@media (max-width: 780px) {
+    .div1{
+        height: 400px;
+    }
+
+    .title{
+        width: 500px;
+    }
+
+    .image1{
+        height: 400px;
+    }
+    .arrow{
+        height: 400px;
+        margin: 0;
+    }
+    .arrow li{
+        height: 400px;
+        line-height: 400px;
+    }
+    #pictures{
+        height: 400px;
+    }
+}
+
+@media (max-width: 650px) {
+    .div1{
+        height: 300px;
+    }
+
+    .title{
+        width: 400px;
+    }
+    #subtitle{
+        font-size: 15px;
+    }
+    
+    #title{
+        font-size: 20px;
+    }
+    .image1{
+        height: 300px;
+    }
+    .arrow{
+        height: 300px;
+        margin: 0;
+    }
+    .arrow li{
+        height: 300px;
+        line-height: 300px;
+    }
+    #pictures{
+        height: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .div1{
+        height: 200px;
+    }
+
+    .title{
+        width: 300px;
+    }
+    #subtitle{
+        font-size: 15px;
+    }
+    
+    #title{
+        font-size: 20px;
+    }
+    .image1{
+        height: 200px;
+    }
+    .arrow{
+        height: 200px;
+        margin: 0;
+    }
+    .arrow li{
+        height: 200px;
+        line-height: 200px;
+    }
+    #pictures{
+        height: 200px;
+    }
 }
