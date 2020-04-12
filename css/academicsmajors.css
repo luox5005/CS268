@@ -79,6 +79,10 @@
     background-color: #ccc;
     margin: 0;
   }
+  .image1{
+    width: 100%;
+    height: auto;
+  }
   .table1{
     width:500px;
     height: 400px;
